@@ -1,0 +1,1887 @@
+{
+	"data": [{
+		"name": "!!calc",
+		"type": "LITERAL",
+		"children": [{
+			"name": "item",
+			"type": "LITERAL",
+			"children": [{
+				"name": "box/count",
+				"type": "TEXT",
+				"children": [{
+					"name": "stack",
+					"type": "INTEGER",
+					"children": [{
+						"name": "single",
+						"type": "INTEGER",
+						"children": []
+					}]
+				}]
+			}]
+		}, {
+			"name": "color",
+			"type": "LITERAL",
+			"children": [{
+				"name": "red/#HEX",
+				"type": "TEXT",
+				"children": [{
+					"name": "green",
+					"type": "INTEGER",
+					"children": [{
+						"name": "blue",
+						"type": "INTEGER",
+						"children": []
+					}]
+				}]
+			}]
+		}, {
+			"name": "expression",
+			"type": "GREEDY_TEXT",
+			"children": []
+		}]
+	}, {
+		"name": "!!kill",
+		"type": "LITERAL",
+		"children": []
+	}, {
+		"name": "!!amt",
+		"type": "LITERAL",
+		"children": [{
+			"name": "list",
+			"type": "LITERAL",
+			"children": [{
+				"name": "page_number",
+				"type": "INTEGER",
+				"children": []
+			}]
+		}, {
+			"name": "add",
+			"type": "LITERAL",
+			"children": [{
+				"name": "region_name",
+				"type": "TEXT",
+				"children": [{
+					"name": "2d",
+					"type": "LITERAL",
+					"children": [{
+						"name": "x1",
+						"type": "INTEGER",
+						"children": [{
+							"name": "z1",
+							"type": "INTEGER",
+							"children": [{
+								"name": "x2",
+								"type": "INTEGER",
+								"children": [{
+									"name": "z2",
+									"type": "INTEGER",
+									"children": [{
+										"name": "dimension_id",
+										"type": "TEXT",
+										"children": [{
+											"name": "msg",
+											"type": "GREEDY_TEXT",
+											"children": []
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}, {
+					"name": "3d",
+					"type": "LITERAL",
+					"children": [{
+						"name": "x1",
+						"type": "INTEGER",
+						"children": [{
+							"name": "y1",
+							"type": "INTEGER",
+							"children": [{
+								"name": "z1",
+								"type": "INTEGER",
+								"children": [{
+									"name": "x2",
+									"type": "INTEGER",
+									"children": [{
+										"name": "y2",
+										"type": "INTEGER",
+										"children": [{
+											"name": "z2",
+											"type": "INTEGER",
+											"children": [{
+												"name": "dimension_id",
+												"type": "TEXT",
+												"children": [{
+													"name": "msg",
+													"type": "GREEDY_TEXT",
+													"children": []
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}, {
+			"name": "msg",
+			"type": "LITERAL",
+			"children": [{
+				"name": "region_name",
+				"type": "TEXT",
+				"children": [{
+					"name": "addline",
+					"type": "LITERAL",
+					"children": [{
+						"name": "line_msg",
+						"type": "TEXT",
+						"children": [{
+							"name": "line_number",
+							"type": "INTEGER",
+							"children": []
+						}]
+					}]
+				}, {
+					"name": "editline",
+					"type": "LITERAL",
+					"children": [{
+						"name": "line_number",
+						"type": "INTEGER",
+						"children": [{
+							"name": "line_msg",
+							"type": "TEXT",
+							"children": []
+						}]
+					}]
+				}, {
+					"name": "delline",
+					"type": "LITERAL",
+					"children": [{
+						"name": "line_number",
+						"type": "INTEGER",
+						"children": []
+					}]
+				}]
+			}]
+		}, {
+			"name": "del",
+			"type": "LITERAL",
+			"children": [{
+				"name": "region_name",
+				"type": "TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "move",
+			"type": "LITERAL",
+			"children": [{
+				"name": "region_name",
+				"type": "TEXT",
+				"children": [{
+					"name": "region_number",
+					"type": "INTEGER",
+					"children": []
+				}]
+			}]
+		}]
+	}, {
+		"name": "!!back",
+		"type": "LITERAL",
+		"children": []
+	}, {
+		"name": "!!etp",
+		"type": "LITERAL",
+		"children": [{
+			"name": "pos",
+			"type": "LITERAL",
+			"children": [{
+				"name": "position",
+				"type": "TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "back",
+			"type": "LITERAL",
+			"children": [{
+				"name": "death",
+				"type": "LITERAL",
+				"children": []
+			}]
+		}, {
+			"name": "player",
+			"type": "TEXT",
+			"children": []
+		}]
+	}, {
+		"name": "!!info",
+		"type": "LITERAL",
+		"children": []
+	}, {
+		"name": "!!loc",
+		"type": "LITERAL",
+		"children": [{
+			"name": "all",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "list",
+			"type": "LITERAL",
+			"children": [{
+				"name": "page",
+				"type": "INTEGER",
+				"children": []
+			}]
+		}, {
+			"name": "search",
+			"type": "LITERAL",
+			"children": [{
+				"name": "keyword",
+				"type": "QUOTABLE_TEXT",
+				"children": [{
+					"name": "page",
+					"type": "INTEGER",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "add",
+			"type": "LITERAL",
+			"children": [{
+				"name": "name",
+				"type": "QUOTABLE_TEXT",
+				"children": [{
+					"name": "here",
+					"type": "LITERAL",
+					"children": [{
+						"name": "desc",
+						"type": "GREEDY_TEXT",
+						"children": []
+					}]
+				}, {
+					"name": "x",
+					"type": "NUMBER",
+					"children": [{
+						"name": "y",
+						"type": "NUMBER",
+						"children": [{
+							"name": "z",
+							"type": "NUMBER",
+							"children": [{
+								"name": "dim",
+								"type": "INTEGER",
+								"children": [{
+									"name": "desc",
+									"type": "GREEDY_TEXT",
+									"children": []
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}, {
+			"name": "del",
+			"type": "LITERAL",
+			"children": [{
+				"name": "name",
+				"type": "QUOTABLE_TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "info",
+			"type": "LITERAL",
+			"children": [{
+				"name": "name",
+				"type": "QUOTABLE_TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "keyword",
+			"type": "QUOTABLE_TEXT",
+			"children": [{
+				"name": "page",
+				"type": "INTEGER",
+				"children": []
+			}]
+		}]
+	}, {
+		"name": "!!task",
+		"type": "LITERAL",
+		"children": [{
+			"name": "overview",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "list",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "help",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "detail",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "list-all",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "add",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": [{
+					"name": "description",
+					"type": "GREEDY_TEXT",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "rm",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "delete",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "del",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "remove",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "rename",
+			"type": "LITERAL",
+			"children": [{
+				"name": "old_titles",
+				"type": "QUOTABLE_TEXT",
+				"children": [{
+					"name": "new_title",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "change",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": [{
+					"name": "description",
+					"type": "GREEDY_TEXT",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "done",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "undone",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "deadline",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": [{
+					"name": "clear",
+					"type": "LITERAL",
+					"children": []
+				}, {
+					"name": "days",
+					"type": "NUMBER",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "player",
+			"type": "LITERAL",
+			"children": [{
+				"name": "name",
+				"type": "QUOTABLE_TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "res",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": [{
+					"name": "players",
+					"type": "GREEDY_TEXT",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "responsible",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": [{
+					"name": "players",
+					"type": "GREEDY_TEXT",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "unres",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": [{
+					"name": "-all",
+					"type": "LITERAL",
+					"children": []
+				}, {
+					"name": "players",
+					"type": "GREEDY_TEXT",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "unresponsible",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": [{
+					"name": "-all",
+					"type": "LITERAL",
+					"children": []
+				}, {
+					"name": "players",
+					"type": "GREEDY_TEXT",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "priority",
+			"type": "LITERAL",
+			"children": [{
+				"name": "title",
+				"type": "QUOTABLE_TEXT",
+				"children": [{
+					"name": "clear",
+					"type": "LITERAL",
+					"children": []
+				}, {
+					"name": "priority",
+					"type": "INTEGER",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "reload",
+			"type": "LITERAL",
+			"children": []
+		}]
+	}, {
+		"name": "!!MCDR",
+		"type": "LITERAL",
+		"children": [{
+			"name": "abort",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "cu",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "checkupdate",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "confirm",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "debug",
+			"type": "LITERAL",
+			"children": [{
+				"name": "thread_dump",
+				"type": "LITERAL",
+				"children": [{
+					"name": "#all",
+					"type": "LITERAL",
+					"children": []
+				}, {
+					"name": "thread_name",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "translation",
+				"type": "LITERAL",
+				"children": [{
+					"name": "get",
+					"type": "LITERAL",
+					"children": [{
+						"name": "translation_key",
+						"type": "QUOTABLE_TEXT",
+						"children": []
+					}]
+				}, {
+					"name": "dump",
+					"type": "LITERAL",
+					"children": [{
+						"name": "json_path",
+						"type": "QUOTABLE_TEXT",
+						"children": []
+					}]
+				}]
+			}, {
+				"name": "command_dump",
+				"type": "LITERAL",
+				"children": [{
+					"name": "all",
+					"type": "LITERAL",
+					"children": []
+				}, {
+					"name": "plugin",
+					"type": "LITERAL",
+					"children": [{
+						"name": "plugin_id",
+						"type": "QUOTABLE_TEXT",
+						"children": []
+					}]
+				}, {
+					"name": "node",
+					"type": "LITERAL",
+					"children": [{
+						"name": "literal_name",
+						"type": "QUOTABLE_TEXT",
+						"children": []
+					}]
+				}]
+			}]
+		}, {
+			"name": "perm",
+			"type": "LITERAL",
+			"children": [{
+				"name": "list",
+				"type": "LITERAL",
+				"children": [{
+					"name": "level",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "set",
+				"type": "LITERAL",
+				"children": [{
+					"name": "player",
+					"type": "QUOTABLE_TEXT",
+					"children": [{
+						"name": "level",
+						"type": "TEXT",
+						"children": []
+					}]
+				}]
+			}, {
+				"name": "query",
+				"type": "LITERAL",
+				"children": [{
+					"name": "player",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "q",
+				"type": "LITERAL",
+				"children": [{
+					"name": "player",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "rm",
+				"type": "LITERAL",
+				"children": [{
+					"name": "player",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "remove",
+				"type": "LITERAL",
+				"children": [{
+					"name": "player",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "setd",
+				"type": "LITERAL",
+				"children": [{
+					"name": "level",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "setdefault",
+				"type": "LITERAL",
+				"children": [{
+					"name": "level",
+					"type": "TEXT",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "permission",
+			"type": "LITERAL",
+			"children": [{
+				"name": "list",
+				"type": "LITERAL",
+				"children": [{
+					"name": "level",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "set",
+				"type": "LITERAL",
+				"children": [{
+					"name": "player",
+					"type": "QUOTABLE_TEXT",
+					"children": [{
+						"name": "level",
+						"type": "TEXT",
+						"children": []
+					}]
+				}]
+			}, {
+				"name": "query",
+				"type": "LITERAL",
+				"children": [{
+					"name": "player",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "q",
+				"type": "LITERAL",
+				"children": [{
+					"name": "player",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "rm",
+				"type": "LITERAL",
+				"children": [{
+					"name": "player",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "remove",
+				"type": "LITERAL",
+				"children": [{
+					"name": "player",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "setd",
+				"type": "LITERAL",
+				"children": [{
+					"name": "level",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "setdefault",
+				"type": "LITERAL",
+				"children": [{
+					"name": "level",
+					"type": "TEXT",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "plugin",
+			"type": "LITERAL",
+			"children": [{
+				"name": "list",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "info",
+				"type": "LITERAL",
+				"children": [{
+					"name": "plugin_id",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "load",
+				"type": "LITERAL",
+				"children": [{
+					"name": "file_name",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "enable",
+				"type": "LITERAL",
+				"children": [{
+					"name": "file_name",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "reload",
+				"type": "LITERAL",
+				"children": [{
+					"name": "plugin_id",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "unload",
+				"type": "LITERAL",
+				"children": [{
+					"name": "plugin_id",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "disable",
+				"type": "LITERAL",
+				"children": [{
+					"name": "plugin_id",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "reloadall",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "ra",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "browse",
+				"type": "LITERAL",
+				"children": [{
+					"name": "-i",
+					"type": "LITERAL",
+					"children": [{
+						"name": "plugin_id",
+						"type": "QUOTABLE_TEXT",
+						"children": []
+					}]
+				}, {
+					"name": "--id",
+					"type": "LITERAL",
+					"children": [{
+						"name": "plugin_id",
+						"type": "QUOTABLE_TEXT",
+						"children": []
+					}]
+				}, {
+					"name": "keyword",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "cu",
+				"type": "LITERAL",
+				"children": [{
+					"name": "plugin_id",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "checkupdate",
+				"type": "LITERAL",
+				"children": [{
+					"name": "plugin_id",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "install",
+				"type": "LITERAL",
+				"children": [{
+					"name": "-t",
+					"type": "LITERAL",
+					"children": [{
+						"name": "target",
+						"type": "QUOTABLE_TEXT",
+						"children": []
+					}]
+				}, {
+					"name": "--target",
+					"type": "LITERAL",
+					"children": [{
+						"name": "target",
+						"type": "QUOTABLE_TEXT",
+						"children": []
+					}]
+				}, {
+					"name": "-U",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--upgrade",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "-u",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--dry-run",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--yes",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--confirm",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "-y",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--no-dependencies",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "plugin_specifier",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "refreshmeta",
+				"type": "LITERAL",
+				"children": []
+			}]
+		}, {
+			"name": "plg",
+			"type": "LITERAL",
+			"children": [{
+				"name": "list",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "info",
+				"type": "LITERAL",
+				"children": [{
+					"name": "plugin_id",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "load",
+				"type": "LITERAL",
+				"children": [{
+					"name": "file_name",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "enable",
+				"type": "LITERAL",
+				"children": [{
+					"name": "file_name",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "reload",
+				"type": "LITERAL",
+				"children": [{
+					"name": "plugin_id",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "unload",
+				"type": "LITERAL",
+				"children": [{
+					"name": "plugin_id",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "disable",
+				"type": "LITERAL",
+				"children": [{
+					"name": "plugin_id",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "reloadall",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "ra",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "browse",
+				"type": "LITERAL",
+				"children": [{
+					"name": "-i",
+					"type": "LITERAL",
+					"children": [{
+						"name": "plugin_id",
+						"type": "QUOTABLE_TEXT",
+						"children": []
+					}]
+				}, {
+					"name": "--id",
+					"type": "LITERAL",
+					"children": [{
+						"name": "plugin_id",
+						"type": "QUOTABLE_TEXT",
+						"children": []
+					}]
+				}, {
+					"name": "keyword",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "cu",
+				"type": "LITERAL",
+				"children": [{
+					"name": "plugin_id",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "checkupdate",
+				"type": "LITERAL",
+				"children": [{
+					"name": "plugin_id",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "install",
+				"type": "LITERAL",
+				"children": [{
+					"name": "-t",
+					"type": "LITERAL",
+					"children": [{
+						"name": "target",
+						"type": "QUOTABLE_TEXT",
+						"children": []
+					}]
+				}, {
+					"name": "--target",
+					"type": "LITERAL",
+					"children": [{
+						"name": "target",
+						"type": "QUOTABLE_TEXT",
+						"children": []
+					}]
+				}, {
+					"name": "-U",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--upgrade",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "-u",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--dry-run",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--yes",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--confirm",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "-y",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--no-dependencies",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "plugin_specifier",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "refreshmeta",
+				"type": "LITERAL",
+				"children": []
+			}]
+		}, {
+			"name": "preference",
+			"type": "LITERAL",
+			"children": [{
+				"name": "list",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "language",
+				"type": "LITERAL",
+				"children": [{
+					"name": "set",
+					"type": "LITERAL",
+					"children": [{
+						"name": "value",
+						"type": "QUOTABLE_TEXT",
+						"children": []
+					}]
+				}, {
+					"name": "reset",
+					"type": "LITERAL",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "pref",
+			"type": "LITERAL",
+			"children": [{
+				"name": "list",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "language",
+				"type": "LITERAL",
+				"children": [{
+					"name": "set",
+					"type": "LITERAL",
+					"children": [{
+						"name": "value",
+						"type": "QUOTABLE_TEXT",
+						"children": []
+					}]
+				}, {
+					"name": "reset",
+					"type": "LITERAL",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "reload",
+			"type": "LITERAL",
+			"children": [{
+				"name": "plugin",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "plg",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "config",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "cfg",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "perm",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "permission",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "all",
+				"type": "LITERAL",
+				"children": []
+			}]
+		}, {
+			"name": "r",
+			"type": "LITERAL",
+			"children": [{
+				"name": "plugin",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "plg",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "config",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "cfg",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "perm",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "permission",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "all",
+				"type": "LITERAL",
+				"children": []
+			}]
+		}, {
+			"name": "server",
+			"type": "LITERAL",
+			"children": [{
+				"name": "start",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "stop",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "stop_exit",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "exit",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "restart",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "kill",
+				"type": "LITERAL",
+				"children": []
+			}]
+		}, {
+			"name": "status",
+			"type": "LITERAL",
+			"children": []
+		}]
+	}, {
+		"name": "!!help",
+		"type": "LITERAL",
+		"children": [{
+			"name": "page",
+			"type": "INTEGER",
+			"children": []
+		}]
+	}, {
+		"name": "!!ip",
+		"type": "LITERAL",
+		"children": [{
+			"name": "ban",
+			"type": "LITERAL",
+			"children": [{
+				"name": "player/ip",
+				"type": "TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "pardon",
+			"type": "LITERAL",
+			"children": [{
+				"name": "player/ip",
+				"type": "TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "list",
+			"type": "LITERAL",
+			"children": []
+		}]
+	}, {
+		"name": "!!pb",
+		"type": "LITERAL",
+		"children": [{
+			"name": "help",
+			"type": "LITERAL",
+			"children": [{
+				"name": "what",
+				"type": "TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "make",
+			"type": "LITERAL",
+			"children": [{
+				"name": "comment",
+				"type": "GREEDY_TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "show",
+			"type": "LITERAL",
+			"children": [{
+				"name": "backup_id",
+				"type": "INTEGER",
+				"children": []
+			}]
+		}, {
+			"name": "rename",
+			"type": "LITERAL",
+			"children": [{
+				"name": "backup_id",
+				"type": "INTEGER",
+				"children": [{
+					"name": "comment",
+					"type": "GREEDY_TEXT",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "delete_range",
+			"type": "LITERAL",
+			"children": [{
+				"name": "backup_id_range",
+				"type": "TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "prune",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "diff",
+			"type": "LITERAL",
+			"children": [{
+				"name": "backup_id_old",
+				"type": "INTEGER",
+				"children": [{
+					"name": "backup_id_new",
+					"type": "INTEGER",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "crontab",
+			"type": "LITERAL",
+			"children": [{
+				"name": "job_id",
+				"type": "ENUMERATION",
+				"children": [{
+					"name": "pause",
+					"type": "LITERAL",
+					"children": []
+				}, {
+					"name": "resume",
+					"type": "LITERAL",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "database",
+			"type": "LITERAL",
+			"children": [{
+				"name": "overview",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "inspect",
+				"type": "LITERAL",
+				"children": [{
+					"name": "backup",
+					"type": "LITERAL",
+					"children": [{
+						"name": "backup_id",
+						"type": "INTEGER",
+						"children": []
+					}]
+				}, {
+					"name": "file",
+					"type": "LITERAL",
+					"children": [{
+						"name": "backup_id",
+						"type": "INTEGER",
+						"children": [{
+							"name": "file_path",
+							"type": "QUOTABLE_TEXT",
+							"children": []
+						}]
+					}]
+				}, {
+					"name": "blob",
+					"type": "LITERAL",
+					"children": [{
+						"name": "blob_hash",
+						"type": "TEXT",
+						"children": []
+					}]
+				}]
+			}, {
+				"name": "validate",
+				"type": "LITERAL",
+				"children": [{
+					"name": "all",
+					"type": "LITERAL",
+					"children": []
+				}, {
+					"name": "blobs",
+					"type": "LITERAL",
+					"children": []
+				}, {
+					"name": "files",
+					"type": "LITERAL",
+					"children": []
+				}]
+			}, {
+				"name": "vacuum",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "migrate_compress_method",
+				"type": "LITERAL",
+				"children": [{
+					"name": "compress_method",
+					"type": "ENUMERATION",
+					"children": []
+				}]
+			}, {
+				"name": "migrate_hash_method",
+				"type": "LITERAL",
+				"children": [{
+					"name": "hash_method",
+					"type": "ENUMERATION",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "confirm",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "abort",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "back",
+			"type": "LITERAL",
+			"children": [{
+				"name": "--confirm",
+				"type": "TEXT",
+				"children": []
+			}, {
+				"name": "--fail-soft",
+				"type": "TEXT",
+				"children": []
+			}, {
+				"name": "--no-verify",
+				"type": "TEXT",
+				"children": []
+			}, {
+				"name": "backup_id",
+				"type": "INTEGER",
+				"children": [{
+					"name": "--confirm",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--fail-soft",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--no-verify",
+					"type": "TEXT",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "delete",
+			"type": "LITERAL",
+			"children": [{
+				"name": "backup_id",
+				"type": "TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "export",
+			"type": "LITERAL",
+			"children": [{
+				"name": "backup_id",
+				"type": "INTEGER",
+				"children": [{
+					"name": "--fail-soft",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--no-verify",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--overwrite",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--no-meta",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "export_format",
+					"type": "ENUMERATION",
+					"children": [{
+						"name": "--fail-soft",
+						"type": "TEXT",
+						"children": []
+					}, {
+						"name": "--no-verify",
+						"type": "TEXT",
+						"children": []
+					}, {
+						"name": "--overwrite",
+						"type": "TEXT",
+						"children": []
+					}, {
+						"name": "--no-meta",
+						"type": "TEXT",
+						"children": []
+					}]
+				}]
+			}]
+		}, {
+			"name": "import",
+			"type": "LITERAL",
+			"children": [{
+				"name": "file_path",
+				"type": "QUOTABLE_TEXT",
+				"children": [{
+					"name": "--auto-meta",
+					"type": "TEXT",
+					"children": []
+				}, {
+					"name": "--meta-override",
+					"type": "LITERAL",
+					"children": [{
+						"name": "meta_override",
+						"type": "TEXT",
+						"children": []
+					}]
+				}, {
+					"name": "backup_format",
+					"type": "ENUMERATION",
+					"children": [{
+						"name": "--auto-meta",
+						"type": "TEXT",
+						"children": []
+					}, {
+						"name": "--meta-override",
+						"type": "LITERAL",
+						"children": [{
+							"name": "meta_override",
+							"type": "TEXT",
+							"children": []
+						}]
+					}]
+				}]
+			}]
+		}, {
+			"name": "list",
+			"type": "LITERAL",
+			"children": [{
+				"name": "--per-page",
+				"type": "LITERAL",
+				"children": [{
+					"name": "per_page",
+					"type": "INTEGER",
+					"children": []
+				}]
+			}, {
+				"name": "--creator",
+				"type": "LITERAL",
+				"children": [{
+					"name": "creator",
+					"type": "QUOTABLE_TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "--from",
+				"type": "LITERAL",
+				"children": [{
+					"name": "start_date",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "--to",
+				"type": "LITERAL",
+				"children": [{
+					"name": "end_date",
+					"type": "TEXT",
+					"children": []
+				}]
+			}, {
+				"name": "-a",
+				"type": "TEXT",
+				"children": []
+			}, {
+				"name": "--all",
+				"type": "TEXT",
+				"children": []
+			}, {
+				"name": "--flag",
+				"type": "TEXT",
+				"children": []
+			}, {
+				"name": "--flags",
+				"type": "TEXT",
+				"children": []
+			}, {
+				"name": "page",
+				"type": "INTEGER",
+				"children": []
+			}]
+		}, {
+			"name": "tag",
+			"type": "LITERAL",
+			"children": [{
+				"name": "backup_id",
+				"type": "INTEGER",
+				"children": [{
+					"name": "hidden",
+					"type": "LITERAL",
+					"children": [{
+						"name": "set",
+						"type": "LITERAL",
+						"children": [{
+							"name": "value",
+							"type": "BOOLEAN",
+							"children": []
+						}]
+					}, {
+						"name": "clear",
+						"type": "LITERAL",
+						"children": []
+					}]
+				}, {
+					"name": "temporary",
+					"type": "LITERAL",
+					"children": [{
+						"name": "set",
+						"type": "LITERAL",
+						"children": [{
+							"name": "value",
+							"type": "BOOLEAN",
+							"children": []
+						}]
+					}, {
+						"name": "clear",
+						"type": "LITERAL",
+						"children": []
+					}]
+				}, {
+					"name": "protected",
+					"type": "LITERAL",
+					"children": [{
+						"name": "set",
+						"type": "LITERAL",
+						"children": [{
+							"name": "value",
+							"type": "BOOLEAN",
+							"children": []
+						}]
+					}, {
+						"name": "clear",
+						"type": "LITERAL",
+						"children": []
+					}]
+				}]
+			}]
+		}]
+	}, {
+		"name": "!!seed",
+		"type": "LITERAL",
+		"children": []
+	}, {
+		"name": "!!op",
+		"type": "LITERAL",
+		"children": []
+	}, {
+		"name": "!!restart",
+		"type": "LITERAL",
+		"children": []
+	}, {
+		"name": "!!stats",
+		"type": "LITERAL",
+		"children": [{
+			"name": "query",
+			"type": "LITERAL",
+			"children": [{
+				"name": "player",
+				"type": "TEXT",
+				"children": [{
+					"name": "cls/alias",
+					"type": "TEXT",
+					"children": [{
+						"name": "args",
+						"type": "TEXT",
+						"children": []
+					}]
+				}]
+			}]
+		}, {
+			"name": "rank",
+			"type": "LITERAL",
+			"children": [{
+				"name": "cls/alias",
+				"type": "TEXT",
+				"children": [{
+					"name": "args",
+					"type": "TEXT",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "list",
+			"type": "LITERAL",
+			"children": [{
+				"name": "args",
+				"type": "TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "save",
+			"type": "LITERAL",
+			"children": [{
+				"name": "alias",
+				"type": "TEXT",
+				"children": [{
+					"name": "cls",
+					"type": "TEXT",
+					"children": [{
+						"name": "target",
+						"type": "TEXT",
+						"children": [{
+							"name": "title",
+							"type": "QUOTABLE_TEXT",
+							"children": []
+						}]
+					}]
+				}]
+			}]
+		}, {
+			"name": "del",
+			"type": "LITERAL",
+			"children": [{
+				"name": "alias",
+				"type": "TEXT",
+				"children": []
+			}]
+		}, {
+			"name": "scoreboard",
+			"type": "LITERAL",
+			"children": [{
+				"name": "show",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "hide",
+				"type": "LITERAL",
+				"children": []
+			}, {
+				"name": "cls/alias",
+				"type": "TEXT",
+				"children": [{
+					"name": "title/args",
+					"type": "TEXT",
+					"children": []
+				}]
+			}]
+		}, {
+			"name": "add_player",
+			"type": "LITERAL",
+			"children": [{
+				"name": "player",
+				"type": "TEXT",
+				"children": []
+			}]
+		}]
+	}, {
+		"name": "!!time",
+		"type": "LITERAL",
+		"children": [{
+			"name": "real",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "game",
+			"type": "LITERAL",
+			"children": []
+		}]
+	}, {
+		"name": "!!time_query:time",
+		"type": "LITERAL",
+		"children": [{
+			"name": "real",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "game",
+			"type": "LITERAL",
+			"children": []
+		}]
+	}, {
+		"name": "!!tips",
+		"type": "LITERAL",
+		"children": [{
+			"name": "start",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "stop",
+			"type": "LITERAL",
+			"children": []
+		}, {
+			"name": "reload",
+			"type": "LITERAL",
+			"children": []
+		}]
+	}, {
+		"name": "!!vris",
+		"type": "LITERAL",
+		"children": [{
+			"name": "--sudo",
+			"type": "TEXT",
+			"children": []
+		}, {
+			"name": "-s",
+			"type": "TEXT",
+			"children": []
+		}, {
+			"name": "--all",
+			"type": "TEXT",
+			"children": []
+		}, {
+			"name": "-a",
+			"type": "TEXT",
+			"children": []
+		}, {
+			"name": "-h",
+			"type": "LITERAL",
+			"children": [{
+				"name": "highlight_time",
+				"type": "INTEGER",
+				"children": []
+			}]
+		}, {
+			"name": "--highlight",
+			"type": "LITERAL",
+			"children": [{
+				"name": "highlight_time",
+				"type": "INTEGER",
+				"children": []
+			}]
+		}, {
+			"name": "player",
+			"type": "TEXT",
+			"children": []
+		}]
+	}, {
+		"name": "!!whereis",
+		"type": "LITERAL",
+		"children": [{
+			"name": "--sudo",
+			"type": "TEXT",
+			"children": []
+		}, {
+			"name": "-s",
+			"type": "TEXT",
+			"children": []
+		}, {
+			"name": "--all",
+			"type": "TEXT",
+			"children": []
+		}, {
+			"name": "-a",
+			"type": "TEXT",
+			"children": []
+		}, {
+			"name": "-h",
+			"type": "LITERAL",
+			"children": [{
+				"name": "highlight_time",
+				"type": "INTEGER",
+				"children": []
+			}]
+		}, {
+			"name": "--highlight",
+			"type": "LITERAL",
+			"children": [{
+				"name": "highlight_time",
+				"type": "INTEGER",
+				"children": []
+			}]
+		}, {
+			"name": "player",
+			"type": "TEXT",
+			"children": []
+		}]
+	}, {
+		"name": "!!here",
+		"type": "LITERAL",
+		"children": [{
+			"name": "highlight",
+			"type": "LITERAL",
+			"children": [{
+				"name": "highlight_time",
+				"type": "INTEGER",
+				"children": []
+			}]
+		}]
+	}]
+}
