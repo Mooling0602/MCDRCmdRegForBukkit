@@ -1,6 +1,7 @@
 TestServer/
 .venv/
 .git/
+rsc/
 builder.py
 example_data.json
 example_raw_data.json
