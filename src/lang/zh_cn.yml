@@ -1,0 +1,3 @@
+skript_command_register:
+  on_load: 正在初始化Skript Command Register...确保你在服务器中安装并加载好了Skript插件！否则插件不会有任何响应
+  on_installed: 已尝试加载通用脚本，目前仅支持玩家执行类似/!!help的指令，且服务器会提示命令不存在（但不影响实际工作）

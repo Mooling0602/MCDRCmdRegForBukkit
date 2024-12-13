@@ -1,0 +1,3 @@
+skript_command_register:
+  on_load: "Missing translation: on_load, need PR"
+  on_installed: "Missing translation: on_installed, need PR"

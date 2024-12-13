@@ -1,8 +1,47 @@
 {
-    "!!calc": {
-        "item": {
-            "box": "",
-            "count": ""
-        }
-    }
+	"data": [{
+		"name": "!!calc",
+		"type": "LITERAL",
+		"children": [{
+			"name": "item",
+			"type": "LITERAL",
+			"children": [{
+				"name": "box/count",
+				"type": "TEXT",
+				"children": [{
+					"name": "stack",
+					"type": "INTEGER",
+					"children": [{
+						"name": "single",
+						"type": "INTEGER",
+						"children": []
+					}]
+				}]
+			}]
+		}, {
+			"name": "color",
+			"type": "LITERAL",
+			"children": [{
+				"name": "red/#HEX",
+				"type": "TEXT",
+				"children": [{
+					"name": "green",
+					"type": "INTEGER",
+					"children": [{
+						"name": "blue",
+						"type": "INTEGER",
+						"children": []
+					}]
+				}]
+			}]
+		}, {
+			"name": "expression",
+			"type": "GREEDY_TEXT",
+			"children": []
+		}]
+	}, {
+		"name": "!!kill",
+		"type": "LITERAL",
+		"children": []
+	}]
 }
