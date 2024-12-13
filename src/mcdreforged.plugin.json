@@ -7,13 +7,11 @@
     "zh_cn": "通过 Skript 在 Bukkit 服务器中注册 MCDReforged 指令"
   },
   "author": [
-    "Andy Zhang",
-    "ZhuRuoLing",
     "Mooling0602"
   ],
   "link": "https://github.com/Mooling0602/MCDRCmdRegForSkript",
   "dependencies": {
-    "mcdreforged": "2.13.2"
+    "mcdreforged": ">=2.13"
   },
   "entrypoint": "skript_command_register.entry"
 }
