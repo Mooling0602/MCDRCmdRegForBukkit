@@ -28,4 +28,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: plugin
-          path: plugin.mcdr
+          path: ../plugin.mcdr
