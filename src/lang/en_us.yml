@@ -1,3 +1,6 @@
 skript_command_register:
   on_load: Initializing Skript Command Register... Please confirm that you have installed and loaded Skript in your bukkit server.
   on_installed: Have tried to install default general sk script, if not loaded correctly, reload this plugin. Present the commands not really registered, but MCDR can parse them.
+  mcdr_builtin_cmd: "Missing translation: mcdr_builtin_cmd, need PR"
+  on_sk_reload: Auto generated sk script has loaded, refresh MCDR commands by reload this plugin.
+  arg_wrong: "Missing translation: arg_wrong, need PR"

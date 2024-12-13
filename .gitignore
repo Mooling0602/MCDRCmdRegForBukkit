@@ -2,7 +2,7 @@ TestServer/
 .venv/
 .git/
 rsc/
-builder.py
+test.py
 example_data.json
 example_raw_data.json
 output.json

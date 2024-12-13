@@ -1,6 +1,6 @@
 {
   "id": "skript_command_register",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "name": "Skript Command Register",
   "description": {
     "en_us": "Register MCDReforged commands in bukkit server by Skript",
@@ -11,7 +11,8 @@
   ],
   "link": "https://github.com/Mooling0602/MCDRCmdRegForSkript",
   "dependencies": {
-    "mcdreforged": ">=2.13"
+    "mcdreforged": ">=2.13",
+    "minecraft_command_register": ">=2.13.2"
   },
   "entrypoint": "skript_command_register.entry"
 }
