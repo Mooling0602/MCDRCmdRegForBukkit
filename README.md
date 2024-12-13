@@ -1,4 +1,4 @@
-# MCDRCmdRegForBukkit
+# MCDRCmdRegForSkript
 Register MCDR command to Skript plugin in bukkit server
 
 ## Usage
