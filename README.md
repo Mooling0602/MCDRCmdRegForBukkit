@@ -1,5 +1,5 @@
 # MCDRCmdRegForSkript
-Register MCDR command to Skript plugin in bukkit server
+Register MCDR commands to bukkit server by Skript.
 
 ## Usage
 Install Skript in your bukkit server, then load this MCDR plugin.
