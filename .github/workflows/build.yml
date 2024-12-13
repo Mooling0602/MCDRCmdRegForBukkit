@@ -18,7 +18,7 @@ jobs:
 
       - name: 打包插件
         run: |
-          cd src && zip -r "plugin.mcdr" * -x "skript_command_register/__pycache__/*" -x ".gitignore" && mv plugin.mcdr ../
+          cd src && zip -r "plugin.mcdr" * -x "skript_command_register/__pycache__/*" -x ".gitignore"
 
       - name: 检查构建
         run: |
@@ -28,4 +28,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: plugin
-          path: ../plugin.mcdr
+          path: src/plugin.mcdr
