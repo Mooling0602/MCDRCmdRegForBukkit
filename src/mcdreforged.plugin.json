@@ -1,6 +1,6 @@
 {
   "id": "skript_command_register",
-  "version": "2.13.2",
+  "version": "0.0.2",
   "name": "Skript Command Register",
   "description": {
     "en_us": "Register MCDReforged commands in bukkit server by Skript",
